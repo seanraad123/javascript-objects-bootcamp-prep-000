@@ -14,4 +14,4 @@ function removeFromPlaylist(Obj_playlist, artist_name){
   return Obj_playlist
 }
 
-p(removeFromPlaylist(playlist, Kanye_West))
+p(removeFromPlaylist(playlist, "Kanye_West"))
