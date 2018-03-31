@@ -8,3 +8,7 @@ function updatePlaylist(Obj_playlist, key_artist_name, value_song_title){
   Obj_playlist[key_artist_name] = value_song_title
    return Obj_playlist
 }
+
+function removeFromPlaylist(Obj_playlist, artis_name){
+  delete 
+}
