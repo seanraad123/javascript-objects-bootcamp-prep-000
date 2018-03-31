@@ -5,4 +5,6 @@
 
 var playlist = {50cent: "candy-shop"}
 
-function updatePlaylist([song1], song2, song3)
+function updatePlaylist([Obj_song1], key_song2, value_song3){
+  
+}
