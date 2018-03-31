@@ -2,7 +2,7 @@
     console.log(value);
  }
 
-const playlist = { Jay_Z: "GoldDigger" };
+const playlist = { Kanye_West: "GoldDigger" };
 
 function updatePlaylist(Obj_playlist, key_artist_name, value_song_title){
   Obj_playlist[key_artist_name] = value_song_title
