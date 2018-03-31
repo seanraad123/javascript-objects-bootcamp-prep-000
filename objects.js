@@ -3,7 +3,7 @@
  }
 
 
-var playlist = {50cent: "candy-shop"}
+var playlist = { 50cent: "candy-shop" }l
 
 function updatePlaylist(Obj_playlist, key_artist_name, value_song_title){
    var Obj_playlist = {key_artist_name: value_song_title}
