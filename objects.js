@@ -11,6 +11,7 @@ function updatePlaylist(Obj_playlist, key_artist_name, value_song_title){
 
 function removeFromPlaylist(Obj_playlist, artist_name){
   delete Obj_playlist.artist_name
+  return Obj_playlist
 }
 
 p(removeFromPlaylist(playlist, "Kanye_West"))
