@@ -12,4 +12,4 @@ function updatePlaylist(Obj_playlist, key_artist_name, value_song_title){
 
 p(updatePlaylist(2000s hip-hop, "Kanye West", "Golddigger"))
 
-updatePlaylist(recipe, 'flour', '3 cups')
+p(updatePlaylist(recipe, 'flour', '3 cups'))
