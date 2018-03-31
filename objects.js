@@ -10,7 +10,7 @@ function updatePlaylist(Obj_playlist, key_artist_name, value_song_title){
    return Obj_playlist
 }
 
-p(Obj_playlist)
+console.log(Obj_playlist)
 
 
 
