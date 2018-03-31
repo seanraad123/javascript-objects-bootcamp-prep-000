@@ -11,4 +11,14 @@ function updatePlaylist(Obj_playlist, key_artist_name, value_song_title){
 }
 
 
-p(updatePlaylist(recipe, 'flour', '3 cups'))
+
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+  obj[key] = value
+ 
+  return obj
+}
+ 
+const recipe = { eggs: 3 }
+ 
+p(destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups'))
+
