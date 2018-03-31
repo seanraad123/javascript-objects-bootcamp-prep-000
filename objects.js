@@ -3,10 +3,10 @@
  }
 
 
-var playlist = { 50cent: "candy-shop" }l
+var playlist = { "50cent": "oatmeal" };
 
 function updatePlaylist(Obj_playlist, key_artist_name, value_song_title){
-   var Obj_playlist = {key_artist_name: value_song_title}
+   var Obj_playlist = {key_artist_name: value_song_title};
    return Obj_playlist
 }
 
